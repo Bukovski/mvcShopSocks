@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "title": "Носки Nike Elite Cushioned Crew, 1 пара",
+    "price": "400",
+    "color": "yellow",
+    "currentColor": "желтый/серый",
+    "sizes": [
+      {
+        "size": "40-42",
+        "stock": false
+      },
+      {
+        "size": "43-44,5",
+        "stock": true
+      },
+      {
+        "size": "45-47",
+        "stock": true
+      }
+    ],
+    "image": [ "yellow1.jpeg", "yellow2.jpeg" ]
+  },
+  {
+    "id": 1,
+    "title": "Носки женские Nike Elite Running Cushion CRW, 1 пара",
+    "price": "399",
+    "color": "pink",
+    "currentColor": "фуксия",
+    "sizes": [
+      {
+        "size": "37,5-39,5",
+        "stock": false
+      }
+    ],
+    "image": [ "purple1.jpg", "purple2.jpg" ]
+  },
+  {
+    "id": 2,
+    "title": "Носки мужские Nike Elite Cushioned Crew, 1 пара",
+    "price": "389",
+    "color": "black",
+    "currentColor": "черный",
+    "sizes": [
+      {
+        "size": "37.5-39.5",
+        "stock": true
+      },
+      {
+        "size": "40-42",
+        "stock": true
+      },
+      {
+        "size": "43-44,5",
+        "stock": true
+      },
+      {
+        "size": "45-47",
+        "stock": false
+      }
+    ],
+    "image": [ "black1.jpg", "black2.jpg" ]
+  },
+  {
+    "id": 3,
+    "title": "Носки мужские Nike Elite Cushioned Crew, 1 пара",
+    "price": "390",
+    "color": "white",
+    "currentColor": "белый",
+    "sizes": [
+      {
+        "size": "37.5-39.5",
+        "stock": false
+      },
+      {
+        "size": "40-42",
+        "stock": true
+      },
+      {
+        "size": "43-44,5",
+        "stock": true
+      }
+    ],
+    "image": [ "white1.jpg", "white2.jpg" ]
+  }
+]
