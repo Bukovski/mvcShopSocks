@@ -11,5 +11,9 @@ class ProductController {
     this.listeners(); //all event listeners page
   }
   
-  listeners() {}
+  listeners() {
+    this._view.picturesView.clickPreviewPicture.attach((index) => {
+      this._model.previewIndexPicture = index;
+    });
+  }
 }

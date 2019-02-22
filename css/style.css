@@ -65,7 +65,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(../img/design/diagonal_grid.png);
+  background: url(../images/design/diagonal_grid.png);
   z-index: 20;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 .size__item--not-exist {
   cursor: default;
-  background: #eff3f4 url(../img/design/property_disabled.png) 50% 50% no-repeat;
+  background: #eff3f4 url(../images/design/property_disabled.png) 50% 50% no-repeat;
   color: #9ea0a0;
 }
 .size__item--active {
