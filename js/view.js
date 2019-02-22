@@ -3,9 +3,8 @@ const ProductPicturesView = (() => {
   const _picPreview = $(".picture__preview");
   
   return class {
-    constructor(model, controller) {
+    constructor(model) {
       this._model = model;
-      this._controller = controller;
     }
     
     layoutMainImg(imgSrc, imgAlt) {
@@ -20,10 +19,9 @@ const ProductPicturesView = (() => {
 })();
 
 class ProductView {
-  constructor(model, controller) {
+  constructor(model) {
     this._model = model;
-    this._controller = controller;
-    this.picturesView = new ProductPicturesView(model, controller);
+    this.picturesView = new ProductPicturesView(model);
   }
   
   show() {

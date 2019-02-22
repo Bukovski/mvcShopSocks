@@ -1,7 +1,7 @@
 window.onload = function () {
   const modelProduct = new ProductModel();
-  const controllerProduct = new ProductController();
-  const viewProduct = new ProductView(modelProduct, controllerProduct);
+  const viewProduct = new ProductView(modelProduct);
+  const controllerProduct = new ProductController(modelProduct, viewProduct);
   
-  controllerProduct.initialize(modelProduct, viewProduct);
+  controllerProduct.initialize();
 };
